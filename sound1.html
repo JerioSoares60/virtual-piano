@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+   
+   <head>
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.12/Tone.js" integrity="sha512-MyXAzMk3sw/i85erXXKd2+z2fzlmKD15TzKKwZd541ifNwUQ8Z73CfAwuyIPc0p5bL7xEA3u/l+/V0K9IyPbCg==" crossorigin="anonymous"></script>
+ 
+                 
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+ 
+  </head>
+   
+ 
+  <body>
+<div> 
+    <audio id="audio">
+           <source src="media/audio.mp3" type="audio/mpeg">
+      </audio>
+     <button id="playPauseBTN" onclick="playPause()">Play &#9658</button>
+     &nbsp;
+     &nbsp;
+<button onclick="stop()">Stop &#9611;</button>
+</div> 
+     
+         
+    <main>
+    </main>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
